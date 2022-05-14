@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.topnav {
+    background-color: mediumseagreen;
+    
+    padding: 25px;
+    user-select: none;
+
+    display: flex;
+
+    list-style: none;
+    font-family: 'Roboto Thin';
+    margin: -8px -8px -8px -8px;
+    text-align: right;
+}
+
+.menu-text {
+    cursor: pointer;
+
+    font-family: 'Roboto Light';
+    background-attachment: scroll;
+    font-size: 20px;
+
+    user-select: none;
+
+    color: white;
+    margin-left: 25px;
+}
+
+.menu-text:hover {
+    color: rgb(228, 226, 226);
+}
+
+footer {
+    font-family: 'Roboto Thin';
+    text-align: center;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.home {
+    margin-top: 75px;
+    user-select: none;
+}
+
+.text-hvg {
+    font: 'Roboto';
+    font-size: 36px;
+    user-select: none;
+}
+
+.text {
+    font: 'Roboto';
+    font-size: 26px;
+    user-select: none;
+}
+
+.home-img {
+    height: 300px;
+    width: 500px;
+    
+    border: 0;
+}
+button {
+    background-color: mediumseagreen;
+    color:white;
+    font-family: 'Roboto';
+
+    padding: 12px;
+    font-size: 24px;
+    border: 0;
+    margin-top: 50px;
+
+    cursor: pointer;
+    user-select: none;
+}
+
+button:hover {
+    background-color:mediumaquamarine ;
+}
+
+.icon {
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 25px;
+    user-select: none;
+}

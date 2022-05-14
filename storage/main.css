@@ -68,12 +68,6 @@ a {
     user-select: none;
 }
 
-.home-img {
-    height: 300px;
-    width: 500px;
-    
-    border: 0;
-}
 button {
     background-color: mediumseagreen;
     color:white;

@@ -22,7 +22,8 @@ html {
 .menu-text {
     cursor: pointer;
 
-    font-family: 'Roboto Light';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     background-attachment: scroll;
     font-size: 20px;
 
@@ -57,18 +58,22 @@ a {
 }
 
 .text-hvg {
-    font: 'Roboto';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 38px;
     user-select: none;
+    color: mediumseagreen;
 }
 
 .text {
-    font: 'Roboto';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 26px;
     user-select: none;
+    color: mediumseagreen;
 }
 
 button {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     background-color: mediumseagreen;
     color:white;
     font-family: 'Roboto';

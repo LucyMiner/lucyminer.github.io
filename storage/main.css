@@ -103,3 +103,7 @@ section {
     padding: 50px;
     margin-top: 25px;
 }
+
+img {
+    user-select: none;
+}
